@@ -1,0 +1,9 @@
+def getSum(kt):
+        jk = 0
+    while (kt != 0):
+        jk = jk + (kt % 10)
+        kt = kt//10    
+    return jk
+   
+kt = int(input("enter the number "))
+print(getSum(kt))
